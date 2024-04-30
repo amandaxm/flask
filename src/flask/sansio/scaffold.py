@@ -680,7 +680,7 @@ class Scaffold:
 
         if isinstance(exc_class, Exception):
             raise TypeError(
-                f"{exc_class!r} is an instance, not a class. Handlers"
+                f"{exc_class!r} not a class. Handlers"
                 " can only be registered for Exception classes or HTTP"
                 " error codes."
             )
